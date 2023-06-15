@@ -1,0 +1,266 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  max-width: 500px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.header h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: xx-large;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(27, 26, 26);
+  padding: 12px;
+  border-radius: 15px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  color: #998b8b;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.offer {
+  font-weight: bolder;
+  color: white;
+  border-radius: 15px;
+  padding: 50px;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-content: center;
+}
+
+.menu, .book, .open {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #998b8b;
+  padding: 20px;
+  margin-top: 2rem;
+}
+
+.columns-images {
+  margin: 0 auto;
+}
+
+
+.open img, .book img, .menu img {
+  border-radius: 15px;
+}
+
+.time {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: small;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  margin: 1rem 2rem 1rem 2rem;
+  background-color: rgb(107, 102, 102);
+  color: white;
+  border-radius: 15px;
+}
+
+.image {
+  border-radius: 15px;
+  margin: 0 auto;
+  width: auto;
+  max-width: 500px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.copyright {
+  position: relative;
+  font-size: small;
+  margin-left: auto;
+  text-decoration: overline;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin-top: 2rem;
+  border-radius: 25px;
+}
+
+.menu-image {
+  border-radius: 25px;
+}
+
+.menu-category {
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+  background-color: #998b8b;
+  border-radius: 25px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.price {
+  display: flex;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.menu-item h3 {
+  text-decoration: underline;
+  font-size: x-large;
+  text-align: center;
+}
+
+.menu-item h4 {
+  font-size: small;
+  text-align: left;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+.menu-item p {
+  font-size: small;
+  text-align: left;
+  margin-left: 1rem;
+}
+
+.back a{
+  margin: 1rem 2rem 1rem 2rem;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.booking-image h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.771);
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  border-radius: 15px;
+}
+
+.form label {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+  border-radius: 15px;
+  margin: 2rem 8rem 1rem 8rem;
+  background-color: #998b8b;
+  padding: 10px;
+  color: black;
+}
+
+.form button {
+  font-size: x-large;
+  font-weight: bolder;
+  border-radius: 15px;
+  margin: 2rem 10rem 1rem 10rem;
+  background-color: #998b8b;
+  padding: 20px;
+}
+
+.form button:hover {
+  color: aqua;
+}
+
+.form input, textarea{
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.booking-image {
+  border-radius: 15px;
+  margin: 0 auto;
+  width: auto;
+  max-width: 500px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.about-column, .about-image {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+.article h2 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-top: 1rem;
+}
+
+.article p{
+  text-align: center;
+  margin: 1rem 1rem 1rem 1rem;
+  font-weight: bold;
+  background-color:#998b8b;
+  border-radius: 15px;
+}
+
+.contact-article {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  margin: 2rem 2rem 2rem 2rem;
+  background-color: #998b8b;
+}
